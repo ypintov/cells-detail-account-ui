@@ -1,0 +1,1 @@
+export { CellsDetailAccountUi } from './src/CellsDetailAccountUi.js';

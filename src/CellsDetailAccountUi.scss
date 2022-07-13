@@ -1,0 +1,41 @@
+@import 'node_modules/@bbva-web-components/bbva-foundations-sass/main';
+
+$primary-color: #004481;
+$secondary-color: #666666;
+$background-color: #fafafa;
+
+:host {
+  display: block;
+  box-sizing: border-box;
+}
+
+:host([hidden]),
+[hidden] {
+  display: none !important;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  background-color: $background-color;
+  margin: 2rem;
+  padding: 0 1rem;
+
+  &__empty {
+    color: $secondary-color;
+    font-style: italic;
+    margin: 1.5rem 0;
+  }
+}
+
+bbva-web-card-product {
+  max-width: 100%;
+  padding: 0.2rem 1.2rem;
+  background-color: $background-color;
+}
