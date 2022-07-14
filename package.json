@@ -15,6 +15,9 @@
     "@bbva-web-components/bbva-foundations-styles": "^2.3.5",
     "@bbva-web-components/bbva-web-card-product": "^1.4.1",
     "@bbva-web-components/bbva-web-tab-default": "^1.0.8",
+    "@bbva-web-components/bbva-web-table": "^1.0.31",
+    "@bbva-web-components/bbva-web-table-body": "^1.4.0",
+    "@bbva-web-components/bbva-web-table-header": "^1.1.5",
     "lit-element": "^2.0.0"
   },
   "devDependencies": {

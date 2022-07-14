@@ -34,16 +34,35 @@
             const component = document.querySelector('#component');
             let account = {
               id: 'U0dJQ3NneXRRNlZCWTVuZnpHS3E',
-              number: '00110241000299979661',
+              number: '001102410299979661',
+              numberCCI: '011-241-000299979661-74',
               currency: 'PEN',
               productName: 'CUENTA FACIL',
               amountPosted: 2834.14,
               amountAvailable: 0.0,
-              participant: 'TITULAR',
-              state: "OPERATIVO"
+              type: 'INDIVIDUAL',
+              state: 'ACTIVA',
             };
 
+            let movements = [
+              {
+                id: 'TMOx',
+                operationDate: '2022-06-06T00:00:00.000-0500',
+                currency: 'PEN',
+                concept: 'SEG.DS 16/05/22 01304030125722',
+                amount: -14.0,
+              },
+              {
+                id: 'b24',
+                operationDate: '2021-12-21T00:00:00.000-0500',
+                currency: 'USD',
+                concept: 'ITF - P.P.: 001101309690198333 - 2',
+                amount: -0.9,
+              },
+            ];
+
             component.account = account;
+            component.movements = movements;
           </script>
         </template>
       </bbva-core-demo-case>

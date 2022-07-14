@@ -18,10 +18,14 @@ export default css`:host {
   box-sizing: inherit;
 }
 
+table {
+  margin: 1rem 0;
+  width: 100%;
+}
+
 .account {
   display: flex;
   flex-direction: column;
-  background-color: #fafafa;
   margin: 2rem;
   padding: 0 1rem;
 }
@@ -34,6 +38,9 @@ export default css`:host {
 bbva-web-card-product {
   max-width: 100%;
   padding: 0.2rem 1.2rem;
-  background-color: #fafafa;
+}
+
+.text-color-negative {
+  color: #c20f0f;
 }
 `;

@@ -20,10 +20,13 @@ $background-color: #fafafa;
   box-sizing: inherit;
 }
 
+table {
+  margin: 1rem 0;
+  width: 100%;
+}
 .account {
   display: flex;
   flex-direction: column;
-  background-color: $background-color;
   margin: 2rem;
   padding: 0 1rem;
 
@@ -37,5 +40,9 @@ $background-color: #fafafa;
 bbva-web-card-product {
   max-width: 100%;
   padding: 0.2rem 1.2rem;
-  background-color: $background-color;
 }
+
+.text-color-negative {
+  color: rgb(194, 15, 15);
+}
+
